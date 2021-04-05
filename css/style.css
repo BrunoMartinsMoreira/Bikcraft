@@ -14,6 +14,9 @@ p {
 
 img {
     display: block;
+    /* max-width: 100%; para que as imagens se adaptem a
+    todo tipo de tela*/
+    max-width: 100%;
 }
 
 .btn {
