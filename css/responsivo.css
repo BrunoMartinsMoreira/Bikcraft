@@ -1,0 +1,121 @@
+/* responsivo para tablets*/
+
+@media only screen and (min-width:788px) and (max-width: 979px) {
+
+		/*qualidade*/
+
+	.qualidade-lista li {
+		text-align: center;
+		padding: 0 5px;
+	}
+	.qualidade::after {
+		content: "";
+		width: 634px;
+		height: 83px;
+		display: block;
+		background: url(../images/linhas.svg) no-repeat center;
+		position: absolute;
+		top: 209px;
+		right: 66px;
+		z-index: -1;
+	}
+	/*footer*/
+	.redes ul li a {
+		display: block;
+		border: #fec63e solid 3px;
+		padding: 5px;
+		border-radius: 10px;
+	}
+	.redes ul li a img {
+		width: 26px;
+		height: 26px;
+	}	
+
+}
+
+/* responsivo para celulares*/
+
+@media only screen and (max-width:787px) {
+	/*header*/
+	
+	
+	p {
+		font-size: 15px;
+	}
+
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+	.header img {
+		margin: 0 auto 10px auto;
+	}
+	.header_menu {
+		text-align: center;
+	}
+	.header_menu ul li {
+		margin: 3px;
+	}
+	.header_menu ul li a {
+		color: #000;
+		border: 3px solid #000;
+		border-radius: 17px;
+		width: 135px;
+		display: block;
+		float: left;
+		padding: 7px;
+	}
+	.header_menu ul li a:hover {
+		border-color: #fff;
+		color: #fff;
+		background-color:#000;
+	}
+	.header_menu ul li a.menu-ativo {
+		color: #000;
+		background: #fff;
+		border-color: #000;
+	}
+	.header_menu ul li a.menu-ativo::after {
+		display: none;
+	}
+
+	/*introduçao*/
+	.introducao {
+		margin-top: 0px;
+		padding-top: 48px;
+		background: url(../images/bg-mobile.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.introducao h1 {
+		font-size: 36px;
+		font-weight: bold;
+		color:rgba(f, f, f, 0.2);
+		text-transform: uppercase;
+	}
+
+	/*introdução interna*/
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	/*botao call to action*/
+	.call {
+		padding-top: 5px;
+	}
+	/*qualidade*/
+	.qualidade::after {
+		display: none;
+	}
+	/*sobre*/
+	.missao-sobre p {
+		font-size: 14px;
+		padding-right: 0px;
+		font-weight: normal;
+	}
+	.missao-sobre ul li {
+		font-size: 14px;
+		line-height: 35px;
+		font-weight: normal;
+		list-style: circle;
+	}
+}
