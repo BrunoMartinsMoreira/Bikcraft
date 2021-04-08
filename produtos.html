@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/produtos.css">
         <link rel="stylesheet" href="/css/responsivo.css">
+        <script>document.documentElement.classList.add("js");</script>
     </head>    
         <body>
             <!--home e  cabeçalho-->
@@ -32,15 +33,15 @@
             <!--introdução-->
             <section class="introducao-interna interna-produtos">
                 <div class="container">
-                    <h1>Produtos</h1>
-                    <p>Conheça todos os nossos produtos</p>
+                    <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+                    <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
                 </div>
             </section>
 
             <section class="container produto-item">
                 <div class="grid-11">
                     <img src="/images/produtos-img/bikcraft-passeio-1.jpg" alt="passeio">
-                    <h2>passeio</h2>
+                    <h2 data-anime="1100" class="fadeInDown">passeio</h2>
                 </div>
                 <div class="grid-5 produto-icone">
                     <img src="/images/produtos-img/passeio.svg" alt="">
@@ -49,23 +50,23 @@
                     <img src="/images/produtos-img/bikcraft-passeio-2.jpg">
                 </div>
                 <div class="grid-8 produto-info">
-                    <p>
+                    <p data-anime="1300" class="fadeInDown">
                         Muito melhor do que passear pela cidade de vidros fechados. 
                         A Bikcraft Passeio é uma bicicleta que une conforto e praticidade 
                         para o seu dia a dia. Você nunca mais vai querer saber de outra.
                     </p>
                     <ul>
-                        <li>conforto</li>
-                        <li>praticidade</li>
-                        <li>design</li>
-                        <li>versatilidade</li>
+                        <li data-anime="1500">conforto</li>
+                        <li data-anime="1600">praticidade</li>
+                        <li data-anime="1700">design</li>
+                        <li data-anime="1800">versatilidade</li>
                     </ul>
                 </div>
             </section>
             <section class="container produto-item">
                 <div class="grid-11">
                     <img src="/images/produtos-img/bikcraft-esporte-1.jpg" alt="esporte">
-                    <h2>esporte</h2>
+                    <h2 data-anime="2200" class="fadeInDown">esporte</h2>
                 </div>
                 <div class="grid-5 produto-icone">
                     <img src="/images/produtos-img/esporte.svg" alt="">
@@ -74,23 +75,23 @@
                     <img src="/images/produtos-img/bikcraft-esporte-2.jpg">
                 </div>
                 <div class="grid-8 produto-info">
-                    <p>
+                    <p data-anime="2400" class="fadeInDown">
                         Mais rápida do que Forest Gump, ninguém vai pegar você.
                          A Bikcraft Esporte é uma bicicleta desenhada para a máxima 
                          performance. O seu desempenho supera qualquer uma da categoria.
                     </p>
                     <ul>
-                        <li>precisao</li>
-                        <li>velocidade</li>
-                        <li>design</li>
-                        <li>performance</li>
+                        <li data-anime="2500">precisao</li>
+                        <li data-anime="2600">velocidade</li>
+                        <li data-anime="2800">design</li>
+                        <li data-anime="2900">performance</li>
                     </ul>
                 </div>
             </section>
             <section class="container produto-item">
                 <div class="grid-11">
                     <img src="/images/produtos-img/bikcraft-retro-1.jpg" alt="retro">
-                    <h2>retro</h2>
+                    <h2 data-anime="3200" class="fadeInDown">retro</h2>
                 </div>
                 <div class="grid-5 produto-icone">
                     <img src="/images/produtos-img/retro.svg" alt="">
@@ -99,19 +100,19 @@
                     <img src="/images/produtos-img/bikcraft-retro-2.jpg">
                 </div>
                 <div class="grid-8 produto-info">
-                    <p>
+                    <p data-anime="3400" class="fadeInDown">
                         O passado volta para lembrarmos o que devemos fazer no futuro. 
                         A Bikcraft Retrô é uma bicicleta estiloza, feita para você que 
                         gosta do clássico, mas que não abre mão do conforto.
                     <ul>
-                        <li>conforto</li>
-                        <li>estilo</li>
-                        <li>design</li>
-                        <li>versatilidade</li>
+                        <li data-anime="3500">conforto</li>
+                        <li data-anime="3600">estilo</li>
+                        <li data-anime="3700">design</li>
+                        <li data-anime="3800">versatilidade</li>
                     </ul>
                 </div>
             </section>
-            <section class="orcamento">
+            <section data-anime="4100" class="orcamento fadeInDown">
                 <div class="container">
                     <h2 class="subtitulo">ORÇAMENTO</h2>
                     <form id="form-orcamento" class="grid-8 form">
@@ -143,7 +144,7 @@
             </section>
             
             <section class="quebra">
-                <blockquote class="quote-externo container">
+                <blockquote data-anime="4250" class="quote-externo container fadeInDown">
                     <p>"O verdadeiro segredo da felicidade está em ter
                         um genuíno interesse por todos os detalhes da vida
                         cotidiana"
@@ -152,7 +153,7 @@
                 </blockquote>
             </section>
             <footer>
-                <div class="footer">
+                <div data-anime="4500" class="footer">
                     <div class="container">
                         <div class="grid-8 historia">
                             <h3>Nossa história</h3>
@@ -201,5 +202,7 @@
                     </div>
                 </div>
             </footer>
+            <script src="./js/simple-anime.js"></script>
+            <script src="./js/script.js"></script>
         </body>
 </html>

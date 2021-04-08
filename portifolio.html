@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/portifolio.css">
         <link rel="stylesheet" href="/css/responsivo.css">
+        <script>document.documentElement.classList.add("js");</script>
     </head>    
         <body>
             <!--home e  cabeçalho-->
@@ -32,26 +33,43 @@
             <!--introdução-->
             <section class="introducao-interna interna-portifolio">
                 <div class="container">
-                    <h1>Portfólio</h1>
-                    <p>conheça os projetos que amamos mostrar</p>
+                    <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+                    <p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>
                 </div>
             </section>
 
             <section class="container"> 
-                <blockquote class="quote-clientes">
+                <blockquote data-anime="1200" class="quote-clientes fadeInDown">
                     <p>
                         “Pedalar sempre foi a minha paixão, 
                         o que o pessoal da Bikcraft fez foi 
                         intensificar o meu amor por esta atividade. 
                         Recomendo à todos que amo.”
                     </p>
-                    <cite>Jhony</cite>
+                    <cite>Vic Victória</cite>
+                <!--    
+                </blockquote>
+                <blockquote class="quote-clientes">
+                    <p>
+                        “Nada melhor do que dar um rolê com a minha Bikcraft na cidade.
+                         Essa é a minha companheira mais fiel, nunca me traiu e está sempre
+                          a minha disposição.”
+                    </p>
+                    <cite>Lucas Hype</cite> 
+                </blockquote>
+                <blockquote class="quote-clientes">
+                    <p>
+                        “Aqueles que ainda não possuem uma Bikcraft,
+                         não sabem o que estão perdendo. A precisão é absurda
+                          e a velocidade transcendental. Nunca vida nada igual.”
+                    </p>
+                    <cite>Bartholomeu Kuma</cite> -->
                 </blockquote>
             </section>
 
             <section class="portifolio">
                 <div class="container">
-                    <ul class="portifolio-itens">
+                    <ul data-anime="1400" class="portifolio-itens">
                         <li class="grid-8"><img src="/images/retro-hom.jpg" alt="retro"></li>
                         <li class="grid-8"><img src="/images/passeio-home.jpg" alt="passeio"></li>
                         <li class="grid-16"><img src="/images/esporte-home.jpg" alt="esporte"></li>
@@ -61,7 +79,7 @@
             
             
             <section class="quebra">
-                <blockquote class="quote-externo container">
+                <blockquote data-anime="1800" class="quote-externo container fadeInDown">
                     <p>"O verdadeiro segredo da felicidade está em ter
                         um genuíno interesse por todos os detalhes da vida
                         cotidiana"
@@ -71,7 +89,7 @@
             </section>
             <footer>
                 <div class="footer">
-                    <div class="container">
+                    <div data-anime="2000" class="container fadeInDown">
                         <div class="grid-8 historia">
                             <h3>Nossa história</h3>
                             <p>A Bikcraft surgiu com a paixão por pedalar e a necessidade
@@ -119,5 +137,7 @@
                     </div>
                 </div>
             </footer>
+            <script src="./js/simple-anime.js"></script>
+            <script src="./js/script.js"></script>
         </body>
 </html>

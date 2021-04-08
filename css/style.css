@@ -385,3 +385,17 @@ img {
 .text-copy {
     font-weight: bold;
 }
+
+
+/****** ANIMAÇAO JAVASCRIPT ******/
+.js [data-anime] {
+    opacity: 0;
+  }
+  .js .fadeInDown {
+    transform: translate3d(0, -30px, 0);
+  }
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 800ms, opacity 800ms;
+  }
